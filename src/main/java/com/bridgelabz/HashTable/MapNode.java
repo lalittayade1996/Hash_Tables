@@ -1,6 +1,6 @@
 package com.bridgelabz.HashTable;
 
-public class MapNode<K, V> implements INode<K> {
+public class MapNode<K, V> extends LinkedList<K> implements INode<K> {
 	K key;
 	V value;
 	MapNode<K, V> next;
